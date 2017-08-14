@@ -43,7 +43,6 @@ safeArray::safeArray(int x, int *n) : len(x), data(n)
 // destructor
 safeArray::~safeArray()
 {
-	cout <<"\ndestroy\n";
 	delete[] this->data;
 }
 
